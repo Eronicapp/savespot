@@ -1,0 +1,52 @@
+# OSX
+.DS_Store
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/app/.cxx/
+android/local.properties
+*.iml
+*.hprof
+.cxx/
+*.apk
+*.ap_
+*.aab
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundle artifacts
+*.jsbundle
+
+# Environment variables - NEVER COMMIT THESE!
+.env
+.env.local
+.env.production
+
+# Metro
+.metro-health-check*
+
+# Temporary files
+*.orig.*
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+.bundle
